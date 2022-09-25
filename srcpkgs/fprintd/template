@@ -8,9 +8,9 @@ configure_args="--sysconfdir=/etc/fprintd -Dman=true -Dgtk_doc=false
 conf_files="/etc/fprintd/fprintd.conf"
 hostmakedepends="meson dbus-glib-devel gettext-devel glib-devel intltool
  pkg-config perl python3-cairo python3-pypamtest python3-dbus
- python3-dbusmock libxslt libfprint polkit"
+ python3-dbusmock libxslt libfprint polkit basu"
 makedepends="dbus-devel dbus-glib-devel gettext-devel glib-devel pam-devel
- libfprint-devel polkit-devel cairo-devel elogind-devel pam_wrapper"
+ libfprint-devel polkit-devel cairo-devel elogind-devel pam_wrapper basu-devel"
 short_desc="Daemon that provides fingerprint scanning functionality"
 maintainer="Enno Boland <gottox@voidlinux.org>"
 license="GPL-2.0-or-later"
