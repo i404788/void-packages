@@ -1,7 +1,7 @@
 # Template file for 'fprintd'
 pkgname=fprintd
 version=1.94.2
-revision=1
+revision=2
 build_style=meson
 configure_args="--sysconfdir=/etc/fprintd -Dman=true -Dgtk_doc=false
  -Dsystemd=false -Dpam_modules_dir=/usr/lib/security"
